@@ -1,8 +1,8 @@
 #
-# Cookbook Name:: r-nativex
+# Cookbook Name:: r-simplyadrian
 # Recipe:: rpackages 
 #
-# Copyright 2014, NativeX
+# Copyright 2014, simplyadrian
 #
 # All rights reserved - Do Not Redistribute
 #
@@ -25,7 +25,7 @@ log "installed r packages" do
   message lazy {"Installed R packages: #{installed_r_packages}"}
 end
 
-node['r_nativex']['packages'].each do |pkg|
+node['r_simplyadrian']['packages'].each do |pkg|
   r_package pkg do
     action :install
     not_if { installed_r_packages.include?(pkg) }

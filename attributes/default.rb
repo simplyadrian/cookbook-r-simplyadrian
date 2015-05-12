@@ -1,3 +1,3 @@
 #
 # R packages to install
-default['r_nativex']['packages'] = {}
+default['r_simplyadrian']['packages'] = {}

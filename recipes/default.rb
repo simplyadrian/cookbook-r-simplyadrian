@@ -1,11 +1,11 @@
 #
-# Cookbook Name:: r-nativex
+# Cookbook Name:: r-simplyadrian
 # Recipe:: default
 #
-# Copyright 2014, NativeX 
+# Copyright 2014, simplyadrian 
 #
 # All rights reserved - Do Not Redistribute
 #
 
 package "unixODBC-devel"
-include_recipe	"r-nativex::rpackages"
+include_recipe	"r-simplyadrian::rpackages"
